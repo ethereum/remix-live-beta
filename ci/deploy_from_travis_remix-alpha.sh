@@ -17,4 +17,4 @@ zip -r remix-$SHA.zip $FILES_TO_PACKAGE
 git add -f $FILES_TO_PACKAGE remix-$SHA.zip
 git commit -m "Built website from {$SHA}."
 
-git push -f git@github.com:ethereum/remix-live-alpha.git gh-pages
+git push -f git@github.com:ethereum/remix-live-beta.git gh-pages
